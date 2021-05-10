@@ -1,0 +1,6 @@
+\babel@toc {ukrainian}{}
+\contentsline {section}{\numberline {1}Завдання}{1}{}%
+\contentsline {section}{\numberline {2}Розв'язок}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Вступ}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Аналіз вибірки}{2}{}%
+\contentsline {section}{\numberline {3}Вибіркові статистики}{6}{}%
