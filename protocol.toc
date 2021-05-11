@@ -5,4 +5,5 @@
 \contentsline {subsection}{\numberline {1.2}Аналіз вибірки}{2}{}%
 \contentsline {section}{\numberline {2}Вибіркові статистики}{6}{}%
 \contentsline {section}{\numberline {3}Висунення Гіпотези}{7}{}%
-\contentsline {section}{\numberline {4}Оцінки параметра розподілу}{7}{}%
+\contentsline {section}{\numberline {4}Оцінки параметра розподілу}{8}{}%
+\contentsline {subsection}{\numberline {4.1}Метод моментів}{8}{}%
