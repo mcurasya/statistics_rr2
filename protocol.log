@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.5.9)  12 MAY 2021 02:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.5.9)  13 MAY 2021 19:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -870,32 +870,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--62
 \T2A/cmr/m/n/10 на ча-сто-та
  []
 
-[2] [3] [4] [5] [6] [7] [8] (./protocol.aux) ) 
+[2] [3] [4] [5] [6] [7]
+Missing character: There is no d in font msbm7!
+ [8] (./protocol.aux) ) 
 Here is how much of TeX's memory you used:
- 25410 strings out of 479383
- 636176 string characters out of 5875831
- 1099191 words of memory out of 5000000
- 42118 multiletter control sequences out of 15000+600000
+ 25422 strings out of 479383
+ 636358 string characters out of 5875831
+ 1099280 words of memory out of 5000000
+ 42130 multiletter control sequences out of 15000+600000
  417049 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,12n,98p,735b,2357s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/
-dvips/cm-super/cm-super-t2a.enc}</usr/share/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><
-/usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texm
-f-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super
+-t2a.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
+onts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symb
+ols/msbm7.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><
+/usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texm
+f-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/ty
+pe1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-s
 uper/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.p
 fb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on protocol.pdf (8 pages, 185746 bytes).
+Output written on protocol.pdf (8 pages, 211502 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 107 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

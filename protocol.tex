@@ -1,4 +1,4 @@
-\documentclass{article}
+ \documentclass{article}
 
 \usepackage{amssymb}
 \usepackage{float}
@@ -139,32 +139,32 @@ $$F^*_n(x) =
                 xtick={0, 1, 2, 3, 4, 5, 6, 7}
             ]
             
-            \addplot[domain=-1:0, color=blue,] (x, 0);
+            \addplot[domain=-1:0, color=blue, <-] (x, 0);
             \addplot[domain=0:0.03, dashed, color=black,] (0, x);
             
-            \addplot[domain=0:1, color=blue,] (x, 0.03);
+            \addplot[domain=0:1, color=blue,<-] (x, 0.03);
             \addplot[domain=0.03:0.13, dashed, color=black,] (1, x);
             
-            \addplot[domain=1:2, color=blue,] (x, 0.13);
+            \addplot[domain=1:2, color=blue,<-] (x, 0.13);
             \addplot[domain=0.13:0.33, dashed, color=black,] (2, x);
 
 
-            \addplot[domain=2:3, color=blue,] (x, 0.33);
+            \addplot[domain=2:3, color=blue,<-] (x, 0.33);
             \addplot[domain=0.33:0.66, dashed, color=black,] (3, x);
 
-            \addplot[domain=3:4, color=blue,] (x, 0.66);
+            \addplot[domain=3:4, color=blue,<-] (x, 0.66);
             \addplot[domain=0.66:0.83, dashed, color=black,] (4, x);
 
-            \addplot[domain=4:5, color=blue,] (x, 0.83);
+            \addplot[domain=4:5, color=blue,<-] (x, 0.83);
             \addplot[domain=0.83:0.94, dashed, color=black,] (5, x);
 
-            \addplot[domain=5:6, color=blue,] (x, 0.94);
+            \addplot[domain=5:6, color=blue,<-] (x, 0.94);
             \addplot[domain=0.94:0.99, dashed, color=black,] (6, x);
 
-            \addplot[domain=6:7, color=blue,] (x, 0.99);
+            \addplot[domain=6:7, color=blue,<-] (x, 0.99);
             \addplot[domain=0.99:1, dashed, color=black,] (7, x);
 
-            \addplot[domain=7:8, color=blue,] (x, 1);
+            \addplot[domain=7:8, color=blue,<-] (x, 1);
         \end{axis}
     \end{tikzpicture}
 \end{figure}
@@ -197,15 +197,19 @@ $$F^*_n(x) =
     \end{tikzpicture}
 \end{figure}
 \newpage
-\section{Вибіркові статистики}
+\subsection{Вибіркові статистики}
 Порахуємо значення вибіркового середнього:
-$$\overline{\xi}=\frac{1}{n}\sum_{i=1}^{100} \xi_i = 3.09$$
+$$\overline{\xi}=\frac{1}{n}\sum_{i=1}^{100} \xi_i$$
+
+$$\overline{\xi}_{\textrm{Знач}}  = 3.09$$
 Порахуємо значення вибіркової дисперсії:
-$$\mathbb{D}^{**}=\frac{1}{n} \sum_{i=1}^{100} (\xi_i - \overline{\xi})^2 = 2.08$$
+$$\mathbb{D}^{**}=\frac{1}{n} \sum_{i=1}^{100} (\xi_i - \overline{\xi})^2$$
+$$\mathbb{D}^{**}\xi_{\textrm{Знач}} = 2.08$$
 Порахуємо значення виправленої вибіркової дисперсії:
-$$\mathbb{D}^{***}=\frac{n}{n-1}\mathbb{D}^{**} = 2.06$$
+$$\mathbb{D}^{***}=\frac{n}{n-1}\mathbb{D}^{**}$$
+$$\mathbb{D}^{***}\xi_{\textrm{Знач}} = 2.06$$
 Порахуємо вибіркову медіану:
-$$Me^*\xi = \left<\text{cередина вибірки}\right> = 3$$
+$$Me^*\xi_{\textrm{Знач}}= \left<\text{cередина вибірки}\right> = 3$$
 Порахуємо вибіркову моду - значення вибірки, що зустрічається найчастіше: 
 $$Mo^*\xi = 3$$
 Для розрахунку вибіркових коефіцієнтів асиметрії та ексцесу розрахуємо потрібні початкові та
@@ -221,12 +225,12 @@ $$\mu_4^* = \mathbb{E}\left[ \xi - \overline{\xi}\right]^4 = 12.429$$
 
 $$\sigma^* = \sqrt{\mathbb{D}^{**}} = 1.443$$
 
-$$As^*\xi = 0.221$$
+$$As^*\xi_{\textrm{Знач}} = 0.221$$
 
-$$Ex^*\xi = -0.14$$
+$$Ex^*\xi_{\textrm{Знач}} = -0.14$$
 
 \newpage
-\section{Висунення Гіпотези}
+\subsection{Висунення Гіпотези}
 \begin{enumerate}
     \item Маємо дискретну ГС
     \item Значення дисперсії менше ніж математичного сподівання(Що схоже на npq та np відповідно)
@@ -234,13 +238,41 @@ $$Ex^*\xi = -0.14$$
 \end{enumerate}
 Тож можемо припустити, що данна ГС є розподіленою біноміально \\ $\xi \sim Bin(N, p)$
 \newpage
-\section{Оцінки параметра розподілу}
-\subsection{Метод моментів}
+\subsection{Оцінки параметра розподілу}
+\subsubsection{Метод моментів}
 Маємо відомі нам значення матсподівання та дисперсії:
 $$
 \begin{cases}
     \mathbb{E}\xi=np \\
     \mathbb{D}\xi=np(1-p)\\
+\end{cases}
+$$
+Звідси, підставивши значення $\mathbb{E}^*\xi = \overline{\xi}$ та $D^{***}$ можемо виразити
+значення n* та p* :
+$$
+\begin{cases}
+    1-p^* = \frac{\mathbb{D}^{***}\xi}{\overline{\xi}}\\
+    \overline{\xi} = n^*p^*
+\end{cases}
+$$
+$$
+\begin{cases}
+    p^* = \frac{\overline{\xi} - \mathbb{D}^{***}\xi}{\overline{\xi}}\\
+    \overline{\xi} = n^*p^*
+\end{cases}
+$$
+
+$$
+\begin{cases}
+    p^* = \frac{\overline{\xi} - \mathbb{D}^{***}\xi}{\overline{\xi}}\\
+    n^* = \frac{\overline{\xi}^2}{\overline{\xi} - \mathbb{d}^{***}\xi}
+\end{cases}
+$$
+Для значення нашої вибірки отримуємо значення $p^*$ та $n^*$
+$$
+\begin{cases}
+    p^* = \\
+    n^* = 
 \end{cases}
 $$
 \end{document}
