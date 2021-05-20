@@ -7,3 +7,4 @@
 \contentsline {subsection}{\numberline {1.4}Висунення Гіпотези}{7}{}%
 \contentsline {subsection}{\numberline {1.5}Оцінки параметра розподілу}{8}{}%
 \contentsline {subsubsection}{\numberline {1.5.1}Метод моментів}{8}{}%
+\contentsline {subsubsection}{\numberline {1.5.2}Метод максимальної правдоподібності}{8}{}%
