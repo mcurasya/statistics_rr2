@@ -35,7 +35,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Ефективність}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.7}Довірчі інтервали}{13}{}%
+\contentsline {subsection}{\numberline {1.7}Довірчі інтервали}{14}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.8}Критерій про розподіл}{15}{}%
 \defcounter {refsection}{0}\relax 

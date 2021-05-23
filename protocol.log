@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.5.9)  23 MAY 2021 21:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.5.9)  23 MAY 2021 22:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1178,35 +1178,39 @@ Overfull \hbox (15.11508pt too wide) in paragraph at lines 280--281
 
 [9] [10]
 
-LaTeX Warning: Citation '1' on page 11 undefined on input line 388.
+LaTeX Warning: Citation '1' on page 11 undefined on input line 389.
 
 
-Overfull \hbox (12.65683pt too wide) in paragraph at lines 398--402
+Overfull \hbox (12.65683pt too wide) in paragraph at lines 399--403
  \T2A/cmr/bx/n/10 ќцiн-ка  еролла-Ћомбарда[] \T2A/cmr/m/n/10 Iн-ша оцiн-ка, €ку
  на-зи-ва-ють оцiн-кою  еролла-
  []
 
 [11]
 
-LaTeX Warning: Citation '1' on page 12 undefined on input line 415.
+LaTeX Warning: Citation '1' on page 12 undefined on input line 417.
 
 
-Overfull \hbox (1.85974pt too wide) in paragraph at lines 419--420
+Overfull \hbox (1.85974pt too wide) in paragraph at lines 421--422
  \T2A/cmr/bx/n/10 Ќе-змi-щен-нiсть[] \T2A/cmr/m/n/10 ѕе-ре-вi-ри-мо на не-змi-щ
 ен-нiсть оцiн-ку N, отри-ма-ну за стан-
  []
 
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 439.
+
+Missing character: There is no р in font cmr10!
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 489--491
+Underfull \hbox (badness 10000) in paragraph at lines 495--497
 
  []
 
 [13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 610--617
+Underfull \hbox (badness 10000) in paragraph at lines 635--642
 
  []
 
-[15] (./protocol.aux)
+[15] [16] (./protocol.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1220,7 +1224,7 @@ Package logreq Info: Writing requests to 'protocol.run.xml'.
 Here is how much of TeX's memory you used:
  33095 strings out of 479383
  784691 string characters out of 5875831
- 1600836 words of memory out of 5000000
+ 1601836 words of memory out of 5000000
  49713 multiletter control sequences out of 15000+600000
  417923 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1244,10 +1248,10 @@ exmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts
 /type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/c
 m-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti100
 0.pfb>
-Output written on protocol.pdf (15 pages, 304646 bytes).
+Output written on protocol.pdf (16 pages, 306758 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
+ 145 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
