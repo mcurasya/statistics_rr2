@@ -1,0 +1,9 @@
+[0] Config.pm:312> INFO - This is Biber 2.15
+[0] Config.pm:315> INFO - Logfile is 'protocol.blg'
+[85] biber:330> INFO - === Sun May 23, 2021, 14:12:16
+[101] Biber.pm:415> INFO - Reading 'protocol.bcf'
+[175] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[180] Utils.pm:395> WARN - The file 'protocol.bcf' does not contain any citations!
+[193] bbl.pm:651> INFO - Writing 'protocol.bbl' with encoding 'UTF-8'
+[193] bbl.pm:754> INFO - Output to protocol.bbl
+[193] Biber.pm:128> INFO - WARNINGS: 1

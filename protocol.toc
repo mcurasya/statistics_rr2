@@ -1,10 +1,42 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ukrainian}{}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {0}Завдання}{1}{}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Розв'язок}{2}{}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1}Вступ}{2}{}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2}Аналіз вибірки}{2}{}%
-\contentsline {subsection}{\numberline {1.3}Вибіркові статистики}{6}{}%
-\contentsline {subsection}{\numberline {1.4}Висунення Гіпотези}{7}{}%
-\contentsline {subsection}{\numberline {1.5}Оцінки параметра розподілу}{8}{}%
-\contentsline {subsubsection}{\numberline {1.5.1}Метод моментів}{8}{}%
-\contentsline {subsubsection}{\numberline {1.5.2}Метод максимальної правдоподібності}{8}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3}Вибіркові статистики}{7}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4}Висунення Гіпотези}{9}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5}Оцінки параметра розподілу}{10}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.5.1}Метод моментів}{10}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.5.2}Метод максимальної правдоподібності}{11}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.5.3}Інші методи оцінки параметру}{11}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Інший метод моментів}{11}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Оцінка Керолла-Ломбарда}{12}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Покращена оцінка за допомогою максимума}{12}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.6}Перевірка параметра на незміщенність, консистентність, ефективність.}{12}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Незміщенність}{12}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Конснистентність}{13}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Ефективність}{13}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.7}Довірчі інтервали}{13}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.8}Критерій про розподіл}{15}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.9}Висновки}{15}{}%
